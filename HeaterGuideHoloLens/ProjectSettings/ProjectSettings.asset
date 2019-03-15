@@ -567,7 +567,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: HeaterGuideHoloLens
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Users\lucas\Documents\GitHub\Projeto-Instalacao-Aquecimento\HeaterGuideHoloLens\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: HeaterGuideHoloLens
   metroCertificateIssuer: HeaterGuideHoloLens

@@ -5,10 +5,10 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-HeaterGuideHoloLens.sln: 79CF4730A736642A628B4A49C086AB48
+HeaterGuideHoloLens.sln: 11D0623C1402F08302BFDB070ED73618
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 HeaterGuideHoloLens\App.cs: EAB0E3663A7BA43FBAA474FB88D80371
-HeaterGuideHoloLens\HeaterGuideHoloLens.csproj: 8CA1AAF4F17629346B32D00F1EAF9E9E
+HeaterGuideHoloLens\HeaterGuideHoloLens.csproj: 78266F8F967719B357BCF168DE5A0A1E
 HeaterGuideHoloLens\HeaterGuideHoloLens.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 HeaterGuideHoloLens\Package.appxmanifest: 3AF662B5E130E161ADD63CBD5EF71EF7
 HeaterGuideHoloLens\project.json: 1D02BC64BAC0D041019673A1C4C51737

@@ -15,28 +15,32 @@ public class SpeechManager : MonoBehaviour
 		keywords.Add("Reset", () =>
 		{
 			// Call the OnReset method on every descendant object.
-			this.BroadcastMessage("OnReset");
+//			this.BroadcastMessage("OnReset");
+			watertap.SendMessage("OnReset", SendMessageOptions.DontRequireReceiver);
 
 		});
 
-		keywords.Add("Next", () =>
+		keywords.Add("Next Scene", () =>
 		{
-			var focusObject = GazeGestureManager.Instance.FocusedObject;
-				focusObject.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
-		
+			//var focusObject = GazeGestureManager.Instance.FocusedObject;
+			//focusObject.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
+			watertap.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
+
 		});
 
-		keywords.Add("Back", () =>
+		keywords.Add("Back Scene", () =>
 		{
-			var focusObject = GazeGestureManager.Instance.FocusedObject;
-			focusObject.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
+			//var focusObject = GazeGestureManager.Instance.FocusedObject;
+			//focusObject.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
+			watertap.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
 
 		});
 
 		keywords.Add("Exit", () =>
 		{
-			var focusObject = GazeGestureManager.Instance.FocusedObject;
-			focusObject.SendMessage("OnExit", SendMessageOptions.DontRequireReceiver);
+			//var focusObject = GazeGestureManager.Instance.FocusedObject;
+			//focusObject.SendMessage("OnExit", SendMessageOptions.DontRequireReceiver);
+			watertap.SendMessage("OnExit", SendMessageOptions.DontRequireReceiver);
 
 		});
 

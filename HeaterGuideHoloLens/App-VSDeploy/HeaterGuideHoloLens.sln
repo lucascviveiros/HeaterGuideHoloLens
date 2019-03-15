@@ -4,9 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.9.28307.344
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterGuideHoloLens", "HeaterGuideHoloLens\HeaterGuideHoloLens.csproj", "{13A45C13-3265-47B8-BC48-A553B569DF55}"
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a} = {19dff6b7-ddee-488a-a81c-1387a081ee2a}
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\lucas\Documents\GitHub\Projeto-Instalacao-Aquecimento\HeaterGuideHoloLens\App-VSDeploy\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{19dff6b7-ddee-488a-a81c-1387a081ee2a}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy3\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,26 +47,29 @@ Global
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.ActiveCfg = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Build.0 = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Deploy.0 = Release|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|x86.ActiveCfg = Debug|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|x86.Build.0 = Debug|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|x86.ActiveCfg = Release|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|x86.Build.0 = Release|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|x86.ActiveCfg = Master|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|x86.Build.0 = Master|x86
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|x64.ActiveCfg = Debug|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|x64.Build.0 = Debug|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|x64.ActiveCfg = Release|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|x64.Build.0 = Release|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|x64.ActiveCfg = Master|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|x64.Build.0 = Master|x64
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|ARM.ActiveCfg = Debug|ARM
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Debug|ARM.Build.0 = Debug|ARM
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|ARM.ActiveCfg = Release|ARM
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Release|ARM.Build.0 = Release|ARM
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|ARM.ActiveCfg = Master|ARM
-		{19dff6b7-ddee-488a-a81c-1387a081ee2a}.Master|ARM.Build.0 = Master|ARM
- EndGlobalSection
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|ARM.Build.0 = Debug|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|x64.ActiveCfg = Debug|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|x64.Build.0 = Debug|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|x86.ActiveCfg = Debug|x86
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Debug|x86.Build.0 = Debug|x86
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|ARM.ActiveCfg = Master|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|ARM.Build.0 = Master|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|x64.ActiveCfg = Master|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|x64.Build.0 = Master|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|x86.ActiveCfg = Master|x86
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Master|x86.Build.0 = Master|x86
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|ARM.ActiveCfg = Release|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|ARM.Build.0 = Release|ARM
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|x64.ActiveCfg = Release|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|x64.Build.0 = Release|x64
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|x86.ActiveCfg = Release|x86
+		{6B2C6AC3-E686-441D-9DE4-E3DA3D5D2F84}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8AF4D6-B37F-4B98-BC01-FE0E1C08B835}
 	EndGlobalSection
 EndGlobal

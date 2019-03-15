@@ -15,7 +15,7 @@ public class AnimationCommands : MonoBehaviour
 	public GameObject mObj_adaptador;
 
 	//Animation Index Control
-	bool active = true;
+	private bool active = true;
 
 	//InitialPosition for "Reset"
 	Vector3 originalPosition;

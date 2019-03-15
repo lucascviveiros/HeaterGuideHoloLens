@@ -1,0 +1,2 @@
+C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy3\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy3\HeaterGuideHoloLens\HeaterGuideHoloLens.csproj;x86

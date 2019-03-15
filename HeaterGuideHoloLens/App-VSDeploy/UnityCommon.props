@@ -1,8 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <UnityWSASolutionName>HeaterGuideHoloLens</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\lucas\Documents\GitHub\Projeto-Instalacao-Aquecimento\HeaterGuideHoloLens\App-VSDeploy\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\lucas\Documents\GitHub\Projeto-Instalacao-Aquecimento\HeaterGuideHoloLens\</UnityProjectDir>
+        <UnityWSASolutionDir>C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy3\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>
