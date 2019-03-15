@@ -1,6 +1,6 @@
 Metro
 PlayerPath?
-C:/Users/lucas/Documents/GitHub/HeaterGuideHoloLens/HeaterGuideHoloLens/App-VSDeploy3
+C:/Users/lucas/Documents/GitHub/HeaterGuideHoloLens/HeaterGuideHoloLens/App-VSDeploy2
 SceneListBegin?
 Assets/HeaterGuideScene.unity
 SceneListEnd?

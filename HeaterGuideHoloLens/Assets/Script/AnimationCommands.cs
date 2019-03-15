@@ -128,10 +128,35 @@ public class AnimationCommands : MonoBehaviour
 	
 	void OnReset()
 	{
-
 		this.transform.localPosition = originalPosition;
 	}
 
+	void OnRotateRight() {
+		this.transform.Rotate(0, 30, 0);
+	}
+
+	void OnRotateLeft()
+	{
+		this.transform.Rotate(0, -30, 0);
+	}
+
+	void OnPlay()
+	{
+		Time.timeScale = 1;
+	}
+
+	void OnPause()
+	{
+		Time.timeScale = 0;
+	}
+
+	void OnBigger() {
+		this.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+	}
+
+	void OnSmaller() {
+		this.transform.localScale += new Vector3(-0.1F, -0.1F, -0.1F);
+	}
 
 	void OnExit()
 	{

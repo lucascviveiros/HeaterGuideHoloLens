@@ -22,26 +22,48 @@ public class SpeechManager : MonoBehaviour
 
 		keywords.Add("Next Scene", () =>
 		{
-			//var focusObject = GazeGestureManager.Instance.FocusedObject;
-			//focusObject.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
 			watertap.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
 
 		});
 
 		keywords.Add("Back Scene", () =>
 		{
-			//var focusObject = GazeGestureManager.Instance.FocusedObject;
-			//focusObject.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
 			watertap.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
-
 		});
 
-		keywords.Add("Exit", () =>
+		keywords.Add("Close App", () =>
 		{
-			//var focusObject = GazeGestureManager.Instance.FocusedObject;
-			//focusObject.SendMessage("OnExit", SendMessageOptions.DontRequireReceiver);
 			watertap.SendMessage("OnExit", SendMessageOptions.DontRequireReceiver);
+		});
 
+		keywords.Add("Right", () =>
+		{
+			watertap.SendMessage("OnRotateRight", SendMessageOptions.DontRequireReceiver);
+		});
+
+		keywords.Add("Left", () =>
+		{
+			watertap.SendMessage("OnRotateLeft", SendMessageOptions.DontRequireReceiver);
+		});
+
+		keywords.Add("Bigger", () =>
+		{
+			watertap.SendMessage("OnBigger", SendMessageOptions.DontRequireReceiver);
+		});
+
+		keywords.Add("Smaller", () =>
+		{
+			watertap.SendMessage("OnSmaller", SendMessageOptions.DontRequireReceiver);
+		});
+
+		keywords.Add("Freeze", () =>
+		{
+			watertap.SendMessage("OnPause", SendMessageOptions.DontRequireReceiver);
+		});
+
+		keywords.Add("Play", () =>
+		{
+			watertap.SendMessage("OnPlay", SendMessageOptions.DontRequireReceiver);
 		});
 
 		// Tell the KeywordRecognizer about our keywords.
@@ -57,10 +79,21 @@ public class SpeechManager : MonoBehaviour
 		// Sending commands direct to the object through mouse
 		if (Input.GetButtonDown("Fire1"))
 		{
-			watertap.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
+			watertap.SendMessage("OnBigger", SendMessageOptions.DontRequireReceiver);
 
 		}
 		if (Input.GetButtonDown("Fire2"))
+		{
+			watertap.SendMessage("OnSmaller", SendMessageOptions.DontRequireReceiver);
+
+		}
+
+		if (Input.GetKeyDown(KeyCode.F1)) {
+			watertap.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
+
+		}
+
+		if (Input.GetKeyDown(KeyCode.F2))
 		{
 			watertap.SendMessage("OnBack", SendMessageOptions.DontRequireReceiver);
 
