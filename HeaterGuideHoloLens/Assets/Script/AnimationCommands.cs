@@ -6,18 +6,19 @@ using UnityEngine.UI;
 
 public class AnimationCommands : MonoBehaviour
 {
-	//Animation
+	// Animation
 	private Animator anim;
 	private AnimatorStateInfo stateInfo;
+
 	//Prefabs
 	public GameObject mObj_tampa;
 	public GameObject mObj_tampa_base;
 	public GameObject mObj_adaptador;
 
-	//Animation Index Control
+	// Animation Control
 	private bool active = true;
 
-	//InitialPosition for "Reset"
+	// InitialPosition for "Reset"
 	Vector3 originalPosition;
 
 	void Start()
@@ -32,17 +33,6 @@ public class AnimationCommands : MonoBehaviour
 
 		anim = this.GetComponent<Animator>();
 
-	}
-
-
-	void OnSelect()
-	{
-		// If the sphere has no Rigidbody component, add one to enable physics.
-		if (!this.GetComponent<Rigidbody>())
-		{
-			var rigidbody = this.gameObject.AddComponent<Rigidbody>();
-			rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
-		}
 	}
 
 	void OnNext()

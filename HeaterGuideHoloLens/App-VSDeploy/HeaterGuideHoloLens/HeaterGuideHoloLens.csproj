@@ -347,7 +347,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy2\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}</Project>
+      <Project>{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

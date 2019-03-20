@@ -4,9 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.9.28307.344
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterGuideHoloLens", "HeaterGuideHoloLens\HeaterGuideHoloLens.csproj", "{13A45C13-3265-47B8-BC48-A553B569DF55}"
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a} = {7766b9c9-647f-4b86-a5d1-4bfcb664f74a}
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2} = {12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy2\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\lucas\Documents\GitHub\HeaterGuideHoloLens\HeaterGuideHoloLens\App-VSDeploy2\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,24 +48,24 @@ Global
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.ActiveCfg = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Build.0 = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Deploy.0 = Release|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|x86.ActiveCfg = Debug|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|x86.Build.0 = Debug|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|x86.ActiveCfg = Release|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|x86.Build.0 = Release|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|x86.ActiveCfg = Master|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|x86.Build.0 = Master|x86
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|x64.ActiveCfg = Debug|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|x64.Build.0 = Debug|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|x64.ActiveCfg = Release|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|x64.Build.0 = Release|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|x64.ActiveCfg = Master|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|x64.Build.0 = Master|x64
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|ARM.ActiveCfg = Debug|ARM
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Debug|ARM.Build.0 = Debug|ARM
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|ARM.ActiveCfg = Release|ARM
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Release|ARM.Build.0 = Release|ARM
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|ARM.ActiveCfg = Master|ARM
-		{7766b9c9-647f-4b86-a5d1-4bfcb664f74a}.Master|ARM.Build.0 = Master|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|x86.ActiveCfg = Debug|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|x86.Build.0 = Debug|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|x86.ActiveCfg = Release|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|x86.Build.0 = Release|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|x86.ActiveCfg = Master|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|x86.Build.0 = Master|x86
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|x64.ActiveCfg = Debug|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|x64.Build.0 = Debug|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|x64.ActiveCfg = Release|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|x64.Build.0 = Release|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|x64.ActiveCfg = Master|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|x64.Build.0 = Master|x64
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Debug|ARM.Build.0 = Debug|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|ARM.ActiveCfg = Release|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Release|ARM.Build.0 = Release|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|ARM.ActiveCfg = Master|ARM
+		{12d15aaf-ebca-4c6e-a44c-98e7dfb42fe2}.Master|ARM.Build.0 = Master|ARM
  EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
