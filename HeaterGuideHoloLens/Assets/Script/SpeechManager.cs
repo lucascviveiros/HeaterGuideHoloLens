@@ -9,7 +9,7 @@ public class SpeechManager : MonoBehaviour
 	Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
 
 	public GameObject watertap;
-	// Use this for initialization
+	
 	void Start()
 	{
 		keywords.Add("Reset", () =>
@@ -66,16 +66,17 @@ public class SpeechManager : MonoBehaviour
 			watertap.SendMessage("OnPlay", SendMessageOptions.DontRequireReceiver);
 		});
 
-		// Tell the KeywordRecognizer about our keywords.
+		// KeywordRecognizer and keywords.
 		keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
 
-		// Register a callback for the KeywordRecognizer and start recognizing!
+		// Callback for the KeywordRecognizer to all spoken words
 		keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 		keywordRecognizer.Start();
 	}
 
 	void Update()
 	{
+		// For development tests in Unity3D
 		// Sending commands direct to the object through mouse
 		if (Input.GetButtonDown("Fire1"))
 		{
@@ -99,7 +100,7 @@ public class SpeechManager : MonoBehaviour
 
 		}
 	}
-
+		//
 		private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
 	{
 		System.Action keywordAction;
