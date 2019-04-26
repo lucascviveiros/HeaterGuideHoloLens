@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class AnimationCommands : MonoBehaviour
 {
 	// Animator and animation clip info
