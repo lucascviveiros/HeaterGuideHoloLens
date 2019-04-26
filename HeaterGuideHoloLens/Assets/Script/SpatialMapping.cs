@@ -26,9 +26,7 @@ public class SpatialMapping : MonoBehaviour {
     // Creates/updates environment colliders to work with physics.
     private SpatialMappingCollider spatialMappingCollider;
 
-    /// <summary>
     /// Determines if the spatial mapping meshes should be rendered.
-    /// </summary>
     public bool DrawVisualMeshes
     {
         get
@@ -51,9 +49,7 @@ public class SpatialMapping : MonoBehaviour {
         }
     }
  
-    /// <summary>
     /// Enables/disables spatial mapping rendering and collision.
-    /// </summary>
     public bool MappingEnabled
     {
         get
@@ -74,7 +70,7 @@ public class SpatialMapping : MonoBehaviour {
         Instance = this;
     }
 
-    // Use this for initialization
+    // initialization
     void Start()
     {
         spatialMappingRenderer = gameObject.GetComponent<SpatialMappingRenderer>();
