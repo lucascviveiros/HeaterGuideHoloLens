@@ -4,7 +4,7 @@ public class TapToPlaceParent : MonoBehaviour
 {
 	bool placing = false;
 
-	// Called by GazeGestureManager when the user performs a Select gesture
+	// Linked with GazeGestureManager when the user performs a "Select gesture"
 	void OnSelect()
 	{
 		// On each Select gesture, toggle whether the user is in placing mode.
@@ -22,15 +22,13 @@ public class TapToPlaceParent : MonoBehaviour
 		}
 	}
 
-	// Update is called once per frame
 	void Update()
 	{
-		// If the user is in placing mode,
-		// update the placement to match the user's gaze.
-
+		// If the user is in placing mode, it updates the placement to match the user's gaze.
 		if (placing)
 		{
-			// Do a raycast into the world that will only hit the Spatial Mapping mesh.
+			// Do a raycast (line between) into the world that will only hit the Spatial Mapping mesh.
+			// That is, by the gazeDirection and the headPosition the rayscast detects and do the Spatial Mapping 
 			var headPosition = Camera.main.transform.position;
 			var gazeDirection = Camera.main.transform.forward;
 
@@ -38,11 +36,10 @@ public class TapToPlaceParent : MonoBehaviour
 			if (Physics.Raycast(headPosition, gazeDirection, out hitInfo,
 				30.0f, SpatialMapping.PhysicsRaycastMask))
 			{
-				// Move this object's parent object to
-				// where the raycast hit the Spatial Mapping mesh.
+				// Here it updates the raycast when it hits the Spatial Mapping mesh by the camera.
 				this.transform.parent.position = hitInfo.point;
 
-				// Rotate this object's parent object to face the user.
+				// Rotate the object's parent object to face the user.
 				Quaternion toQuat = Camera.main.transform.localRotation;
 				toQuat.x = 0;
 				toQuat.z = 0;
