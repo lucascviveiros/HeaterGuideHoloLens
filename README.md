@@ -11,4 +11,4 @@ Mixed Reality App for users' training in heating system maintenance (HoloLens)
 
 ![cedr](https://user-images.githubusercontent.com/21102697/62393083-7293e780-b569-11e9-896d-d602722c89ee.png)
 
-http://cedri.ipb.pt/
+- http://cedri.ipb.pt/
