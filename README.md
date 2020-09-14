@@ -1,6 +1,7 @@
 # HeaterGuideHoloLens
 
-Mixed Reality App for users' training in heating system maintenance (Microsoft HoloLens)
+Mixed Reality App for users' training in heating system maintenance 
+- Microsoft HoloLens
 - Holograms
 - Animations
 - Voice Commands
