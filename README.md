@@ -1,11 +1,11 @@
-# HeaterGuideHoloLens
+# HeaterGuideHoloLens (Unity3D)
 
 Mixed Reality App for users' training in heating system maintenance 
 - Microsoft HoloLens
 - Spatial Mapping
 - 3D Holograms
-- Animations with Unity3D
-- Voice Commands
+- Animations
+- Voice Commands to Rotate and Scale the object 
 
 ![ezgif com-optimize](https://user-images.githubusercontent.com/21102697/61591013-20de7b00-abc1-11e9-92b0-5f8863c850c3.gif)
 
