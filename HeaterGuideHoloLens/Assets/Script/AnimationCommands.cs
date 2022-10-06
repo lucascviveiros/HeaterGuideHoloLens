@@ -5,19 +5,12 @@ using UnityEngine.UI;
 
 public class AnimationCommands : MonoBehaviour
 {
-	// Animator and animation clip info
 	private Animator anim;
 	private AnimatorStateInfo stateInfo;
-
-	//3D Objects of the faucets
 	public GameObject mObj_tampa;
 	public GameObject mObj_tampa_base;
 	public GameObject mObj_adaptador;
-
-	// Animation bool expression for control
 	private bool active = true;
-
-	// InitialPosition of the object for Reset command
 	Vector3 originalPosition;
 
 	void Start()
