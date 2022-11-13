@@ -76,8 +76,6 @@ public class SpeechManager : MonoBehaviour
 
 	void Update()
 	{
-		// For development tests in Unity3D
-		// Sending commands direct to the object through mouse
 		if (Input.GetButtonDown("Fire1"))
 		{
 			watertap.SendMessage("OnBigger", SendMessageOptions.DontRequireReceiver);
@@ -100,8 +98,8 @@ public class SpeechManager : MonoBehaviour
 
 		}
 	}
-		//
-		private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
+	
+	private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
 	{
 		System.Action keywordAction;
 		if (keywords.TryGetValue(args.text, out keywordAction))
