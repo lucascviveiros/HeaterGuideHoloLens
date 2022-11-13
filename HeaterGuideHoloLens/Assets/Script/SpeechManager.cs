@@ -15,13 +15,11 @@ public class SpeechManager : MonoBehaviour
 		keywords.Add("Reset", () =>
 		{
 			watertap.SendMessage("OnReset", SendMessageOptions.DontRequireReceiver);
-
 		});
 
 		keywords.Add("Next", () =>
 		{
 			watertap.SendMessage("OnNext", SendMessageOptions.DontRequireReceiver);
-
 		});
 
 		keywords.Add("Back", () =>
