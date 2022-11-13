@@ -14,8 +14,6 @@ public class SpeechManager : MonoBehaviour
 	{
 		keywords.Add("Reset", () =>
 		{
-			// Call the OnReset method on every descendant object.
-			// this.BroadcastMessage("OnReset");
 			watertap.SendMessage("OnReset", SendMessageOptions.DontRequireReceiver);
 
 		});
